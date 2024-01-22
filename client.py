@@ -11,7 +11,7 @@ src_MAC = "00:0c:29:4b:43:b0" #insert your mac address here
 dst_MAC = "ff:ff:ff:ff:ff:ff"
 
 eth_frame = Ether(dst=dst_MAC, src=src_MAC)
-identifier = b"JEBACKRZYSIA"
+identifier = b"L2CHAT"
 
 username = input("Enter your username: ")
 while True: 

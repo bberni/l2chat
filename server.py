@@ -1,6 +1,6 @@
 from scapy.all import *
 
-identifier = b'JEBACKRZYSIA'
+identifier = b'L2CHAT'
 def callback(packet):
     global identifier
     if packet.haslayer(Raw):
